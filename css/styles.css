@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --dark-gray: hsl(0, 0%, 55%);
+  --very-dark-gray: hsl(0, 0%, 41%);
+}
+
+/*========= LAYOUT ========= */
+
+body {
+  font-family: 'Alata', sans-serif;
+  font-size: 15px;
+}
+
+.title {
+  font: lighter 42px 'Josefin Sans';
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+/*========= HEADER ========= */
+#header {
+  position: absolute;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.logo {
+  width: 150px;
+}
+
+nav ul {
+  display: none;
+}
+
+.icon-menu {
+  cursor: pointer;
+}
+
+/*========= HOME ========= */
+#home {
+  background: url('../images/mobile/image-hero.jpg');
+  background-size: cover;
+  height: 650px;
+  display: flex;
+  align-items: center;
+}
+
+#home .title {
+  border: 2px solid var(--white);
+  padding: 25px;
+  max-width: 650px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
