@@ -20,7 +20,6 @@ body {
 
 .title {
   font: lighter 42px 'Josefin Sans';
-  color: var(--white);
   text-transform: uppercase;
 }
 
@@ -68,6 +67,39 @@ nav ul {
   border: 2px solid var(--white);
   padding: 25px;
   max-width: 650px;
+  color: var(--white);
+}
+
+/*========= INTERACTIVE ========= */
+#interactive {
+  padding: 120px 0;
+}
+
+#interactive .container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.img-interactive {
+  background: url('../images/mobile/image-interactive.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.box-interactive {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.box-interactive .title {
+  margin-bottom: 20px;
+}
+
+.box-interactive p {
+  color: var(--very-dark-gray);
+  line-height: 24px;
 }
 
 .attribution {
