@@ -23,6 +23,15 @@ body {
   text-transform: uppercase;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
 /*========= HEADER ========= */
 #header {
   position: absolute;
@@ -210,10 +219,45 @@ nav ul {
   color: var(--white);
 }
 
-.attribution {
+/*========= FOOTER ========= */
+#footer {
+  background: #000;
+  color: var(--white);
+}
+
+#footer .container {
+  text-align: center;
+  padding: 50px;
+}
+
+#footer .logo {
+  margin-bottom: 30px;
+}
+
+.menu-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.social {
+  margin-bottom: 10px;
+}
+
+.social img {
+  margin-right: 10px;
+}
+
+#footer .container p {
+  color: var(--dark-gray);
+}
+
+#footer .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
